@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml version="1.0">
+
+    <category>
+        <pattern>hello</pattern>
+        <template>
+            hello ...
+        </template>
+    </category>
+
+    <category>
+        <pattern>当前时间</pattern>
+        <template>
+            <system>
+                date
+            </system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>botInfo</pattern>
+        <template>
+            name :
+            <bot name="name"/>
+            , age
+            <bot name="age"/>
+            , website :
+            <bot name="website"/>
+            , version :
+            <bot name="version"/>
+            ...
+        </template>
+    </category>
+
+    <category>
+        <pattern>我的信息</pattern>
+        <template>
+            name :
+            <user name="name"/>
+            , age
+            <user name="age"/>
+            ...
+        </template>
+    </category>
+
+    <!-- 思考上一句 -->
+    <category>
+        <pattern>更新我的信息</pattern>
+        <template>
+            <srai>我的信息</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>_</pattern>
+        <that>你的姓名</that>
+        <template>
+            <think>
+                <set type='user' name="name">
+                    <star/>
+                </set>
+            </think>
+            hello,
+            <user name="name"/>
+        </template>
+    </category>
+
+
+    <!--<default>-->
+    <!--我不太理解你在说什么 ...-->
+    <!--</default>-->
+
+
+    <!-- the uyghur aiml file, you can delete it if don't need -->
+
+
+    <!-- includes -->
+    <!--<include file="./cn-test.aiml"/>-->
+
+
+</aiml>

@@ -1,0 +1,19 @@
+{
+  "name": "lyfing/laravel-chatbot",
+  "description": "chatbot for laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lyfing",
+      "email": "os.debian.ly@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Lyfing\\Chatbot\\": "src/"
+    }
+  }
+
+}
