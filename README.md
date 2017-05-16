@@ -9,7 +9,7 @@
 ## 1. 配置
 
 
-添加  `Lyfing\ChatBot\ChatBotServiceProvider::class,` 到 config/app.php `providers`  
+添加  `Lyfing\LaravelChatBot\ChatBotServiceProvider::class,` 到 config/app.php `providers`  
 
 
 ## 2. 发布

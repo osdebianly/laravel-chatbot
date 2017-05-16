@@ -1,6 +1,6 @@
 <?php
 
-namespace Lyfing\ChatBot\Models;
+namespace Lyfing\LaravelChatBot\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

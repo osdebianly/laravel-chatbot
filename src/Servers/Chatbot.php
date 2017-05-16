@@ -1,11 +1,11 @@
-<?php namespace Lyfing\ChatBot\Servers;
+<?php namespace Lyfing\LaravelChatBot\Servers;
 
 
-use Lyfing\ChatBot\Models\ChatBotLog;
-use Lyfing\ChatBot\Servers\Humans\User;
-use Lyfing\ChatBot\Servers\Humans\Bot;
-use Lyfing\ChatBot\Servers\Parser;
-use Lyfing\ChatBot\Servers\Context;
+use Lyfing\LaravelChatBot\Models\ChatBotLog;
+use Lyfing\LaravelChatBot\Servers\Humans\User;
+use Lyfing\LaravelChatBot\Servers\Humans\Bot;
+use Lyfing\LaravelChatBot\Servers\Parser;
+use Lyfing\LaravelChatBot\Servers\Context;
 
 //require_once "Humans/User.php";
 //require_once "Humans/Bot.php";

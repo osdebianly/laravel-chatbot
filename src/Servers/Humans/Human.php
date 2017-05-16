@@ -1,9 +1,9 @@
-<?php namespace Lyfing\ChatBot\Servers\Humans;
+<?php namespace Lyfing\LaravelChatBot\Servers\Humans;
 
 
 //require_once dirname(__FILE__) . "/../Database/Connection.php";
 
-use Lyfing\ChatBot\Models\ChatBotProperty;
+use Lyfing\LaravelChatBot\Models\ChatBotProperty;
 
 class Human
 {

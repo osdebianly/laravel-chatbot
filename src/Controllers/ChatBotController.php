@@ -1,11 +1,11 @@
 <?php
 
-namespace Lyfing\ChatBot\Controllers;
+namespace Lyfing\LaravelChatBot\Controllers;
 
 use App\Http\Controllers\BaseController as Controller;
 use Illuminate\Http\Request;
-use Lyfing\ChatBot\Requests\ChatBotApiRequest;
-use Lyfing\ChatBot\Servers\Chatbot;
+use Lyfing\LaravelChatBot\Requests\ChatBotApiRequest;
+use Lyfing\LaravelChatBot\Servers\Chatbot;
 
 class ChatBotController extends Controller
 {

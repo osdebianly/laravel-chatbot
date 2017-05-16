@@ -1,4 +1,4 @@
-<?php namespace Lyfing\ChatBot\Servers;
+<?php namespace Lyfing\LaravelChatBot\Servers;
 
 /**
  * Created by PhpStorm.

@@ -1,10 +1,10 @@
-<?php namespace Lyfing\ChatBot\Servers;
+<?php namespace Lyfing\LaravelChatBot\Servers;
 
-use Lyfing\ChatBot\Models\ChatBotData;
-use Lyfing\ChatBot\Servers\Context;
+use Lyfing\LaravelChatBot\Models\ChatBotData;
+use Lyfing\LaravelChatBot\Servers\Context;
 
-use Lyfing\ChatBot\Servers\Humans\User;
-use Lyfing\ChatBot\Servers\Humans\Bot;
+use Lyfing\LaravelChatBot\Servers\Humans\User;
+use Lyfing\LaravelChatBot\Servers\Humans\Bot;
 
 use DOMElement;
 

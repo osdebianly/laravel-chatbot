@@ -1,6 +1,6 @@
 <?php
 
-namespace Lyfing\ChatBot;
+namespace Lyfing\LaravelChatBot;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Application as LaravelApplication;

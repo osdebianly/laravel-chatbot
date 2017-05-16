@@ -1,7 +1,7 @@
-<?php namespace Lyfing\ChatBot\Servers;
+<?php namespace Lyfing\LaravelChatBot\Servers;
 
 
-use Lyfing\ChatBot\Models\ChatBotData;
+use Lyfing\LaravelChatBot\Models\ChatBotData;
 
 
 /**

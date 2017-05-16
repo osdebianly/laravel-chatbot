@@ -1,7 +1,7 @@
 <?php
 
 
-Route::group(['namespace' => 'Lyfing\ChatBot\Controllers', 'middleware' => 'web'], function () {
+Route::group(['namespace' => 'Lyfing\LaravelChatBot\Controllers', 'middleware' => 'web'], function () {
 
 	Route::get(env('chatbotUrl', 'chatbot'), 'ChatBotController@index');
 

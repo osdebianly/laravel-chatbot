@@ -1,6 +1,6 @@
 <?php
 
-namespace Lyfing\ChatBot\Requests;
+namespace Lyfing\LaravelChatBot\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,6 +1,6 @@
-<?php namespace Lyfing\ChatBot\Servers\Humans;
+<?php namespace Lyfing\LaravelChatBot\Servers\Humans;
 
-use Lyfing\ChatBot\Servers\Humans\Human;
+use Lyfing\LaravelChatBot\Servers\Humans\Human;
 
 class User extends Human
 {
